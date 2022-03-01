@@ -1,0 +1,16 @@
+import Guide from '@/components/Guide';
+
+const Home = () => {
+  return (
+    <div className="text-base font-bold">
+      下面是图标
+      <div className="i-ph-anchor-simple-thin" />
+      <div className="i-mdi-alarm text-orange-400" />
+      <div className="i-logos-vue text-3xl" />
+      <button className="i-carbon-sun dark:i-carbon-moon" />
+      <div className="i-twemoji-grinning-face-with-smiling-eyes hover:i-twemoji-face-with-tears-of-joy" />
+    </div>
+  );
+};
+
+export default Home;
