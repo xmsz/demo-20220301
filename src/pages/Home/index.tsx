@@ -7,7 +7,7 @@ const Home = () => {
       <div className="i-ph-anchor-simple-thin" />
       <div className="i-mdi-alarm text-orange-400" />
       <div className="i-logos-vue text-3xl" />
-      <button className="i-carbon-sun dark:i-carbon-moon" />
+      <button className="i-ic-baseline-escalator-warning" />
       <div className="i-twemoji-grinning-face-with-smiling-eyes hover:i-twemoji-face-with-tears-of-joy" />
     </div>
   );

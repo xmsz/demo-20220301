@@ -2,6 +2,8 @@ lockfileVersion: 5.3
 
 specifiers:
   '@iceworks/spec': ^1.0.0
+  '@iconify-json/ic': ^1.1.1
+  '@iconify-json/mdi': ^1.1.1
   '@types/react': ^17.0.2
   '@types/react-dom': ^17.0.2
   eslint: ^7.30.0
@@ -17,6 +19,8 @@ dependencies:
 
 devDependencies:
   '@iceworks/spec': 1.5.0_eslint@7.32.0+stylelint@13.13.1
+  '@iconify-json/ic': 1.1.1
+  '@iconify-json/mdi': 1.1.1
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
   eslint: 7.32.0
@@ -777,6 +781,18 @@ packages:
     transitivePeerDependencies:
       - supports-color
       - typescript
+    dev: true
+
+  /@iconify-json/ic/1.1.1:
+    resolution: {integrity: sha512-HR2m3Rsel5Zp3T98Vsai+tw6ip7DKYq9xLUv3NXgZE0aSHlQw9MpQdzdW0xkdfZEnX8gfIOpW2XZy1p2YAwxSA==}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
+  /@iconify-json/mdi/1.1.1:
+    resolution: {integrity: sha512-DkkvAA4sI5SyzqOZo/R4eQc4srBcNREBGnQNdj2/cJ39RiTVp9nKZu6z1gjUC4SlwmUJA5SIQwmx9lSxBVrK2Q==}
+    dependencies:
+      '@iconify/types': 1.0.12
     dev: true
 
   /@iconify/types/1.0.12:
