@@ -6,6 +6,7 @@ specifiers:
   '@iconify-json/mdi': ^1.1.1
   '@types/react': ^17.0.2
   '@types/react-dom': ^17.0.2
+  '@unocss/transformer-directives': ^0.27.1
   eslint: ^7.30.0
   ice.js: ^2.0.0
   react: ^17.0.2
@@ -23,6 +24,7 @@ devDependencies:
   '@iconify-json/mdi': 1.1.1
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
+  '@unocss/transformer-directives': 0.27.1
   eslint: 7.32.0
   ice.js: 2.5.1_d04549eebe4b40629347027d13ddf925
   stylelint: 13.13.1
@@ -1232,6 +1234,10 @@ packages:
     resolution: {integrity: sha512-p3hdV/feuj4Shfg5sBpZAdEuUb8b+aBAFs13rd2oxBMPTCWZRG+XyjJSjiLuYBVfYCxbG46vhzYQYZ4dfDt9tA==}
     dev: true
 
+  /@unocss/core/0.27.1:
+    resolution: {integrity: sha512-qfhhib27Lq4IouT6OVSQsS5FTXrjyp/dfzhyfAnx/kdxDGPX6vQchdict3YEtsJLYQZ/pnm/TjdU2wDKhALjJg==}
+    dev: true
+
   /@unocss/inspector/0.26.4:
     resolution: {integrity: sha512-g6CMBtL/0jCSl7i/hxUqbSyqTwhEptpCXTRe376CM0OrLueGd57Z2GKyxx8MFIVyW/cVrZ43vH0b+NmgIPC5zQ==}
     dependencies:
@@ -1303,6 +1309,13 @@ packages:
     resolution: {integrity: sha512-Fz7rw2CNr9d2PKHvuMoa+vnC81fZELrpIBNBjc/R3/DEDvs7q13RJZ3tEM/qvdztTPcBCeRScEc4JWM3SVJOFQ==}
     dependencies:
       '@unocss/core': 0.26.4
+      css-tree: 2.1.0
+    dev: true
+
+  /@unocss/transformer-directives/0.27.1:
+    resolution: {integrity: sha512-cDB0/ChPlEnpF2lYXJPdDk6OPjn8iMGDHfRdGfzafQOrlFHL4w6EFtiX6ONWeesXJ1IwX9KDVPK0kf9z8yN+ew==}
+    dependencies:
+      '@unocss/core': 0.27.1
       css-tree: 2.1.0
     dev: true
 
