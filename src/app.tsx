@@ -1,6 +1,6 @@
 import { runApp, IAppConfig } from 'ice';
 
-// import 'uno.css';
+import 'uno.css';
 
 const appConfig: IAppConfig = {
   app: {

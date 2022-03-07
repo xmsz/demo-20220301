@@ -1,6 +1,13 @@
-@import 'uno.css';
+// @import 'uno.css';
 
 body {
   -webkit-font-smoothing: antialiased;
   @apply font-bold;
+}
+
+.first {
+  @apply text-blue-500;
+  .second {
+    @apply text-red-500;
+  }
 }
